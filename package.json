@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "@pengubot/klasa": "github:pengubot/klasa#stable",
-    "discord.js": "^12.3.1"
+    "discord.js": "^12.3.1",
+    "klasa": "github:pengubot/klasa#f90ff1a3fc86f867eafc3178b73ad57ec6a2a96d"
   },
   "devDependencies": {},
   "scripts": {
