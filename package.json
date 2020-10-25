@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "@pengubot/klasa": "github:pengubot/klasa#stable",
     "discord.js": "^12.3.1"
   },
   "devDependencies": {},
