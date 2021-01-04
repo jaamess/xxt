@@ -1,7 +1,7 @@
 const {
     Command,
     util: { exec, codeBlock },
-  } = require(`klasa`);
+  } = require(`klasa`); 
   
   module.exports = class extends Command {
     constructor(...args) {

@@ -4,7 +4,7 @@ module.exports = class extends Event {
 
     constructor(...args) {
         super(...args, {
-            name: "guildMemberAdd",
+            name: "GuildMemberRemove",
             enabled: true,
             once: false
         });
@@ -14,7 +14,6 @@ module.exports = class extends Event {
         const username = member.user.username;
         const logsChannel = member.guild.channels.resolveID('769797847662592030');
 
-        await member.setNickname(`XXT | ${username}`);
-        return logsChannel.send(`**<:amorPaty:767849853094985748> | <@${member.id}> acabou de entrar na XXT.`);
+        return logsChannel.send(`** <:f_fortnite:765088007757234196> | ${member.user.username} (ID: ${member.id}) acabou de sair do servidor.**`);
     }
 };
