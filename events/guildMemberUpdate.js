@@ -15,7 +15,7 @@ module.exports = class extends Event {
         const oldMemberNickname = oldMember.nickname;
         const newMemberNickname = newMember.nickname;
 
-        if (!newMemberNickname.startsWith("XXT |"))) {
+        if (!newMemberNickname.startsWith("XXT |")) {
             return newMember.setNickname(`XXT | ${newMember.user.username}`);
         }
     }
